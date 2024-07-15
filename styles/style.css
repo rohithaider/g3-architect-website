@@ -91,15 +91,16 @@ body{
 .banner-contents{
     margin:0 auto;
     text-align:center;
-    max-width:53rem ;
+    max-width:50rem ;
 }
 .banner-image-container{
     margin: 0 auto;
-    max-width:64rem ;
+    max-width:68rem ;
 }
 .banner-image{
     width:100%;
     margin-bottom: 40px;
+    border-radius: 8px;
 
 }
 .banner-title{
