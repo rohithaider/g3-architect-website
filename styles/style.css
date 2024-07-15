@@ -39,7 +39,9 @@
     /* background-color: #FF900E; */
     background-color: #FF6F00;
     border-radius: 8px;
-    border: 2px solid  #8B4500;
+    /* border: 2px solid  #8B4500; */
+    border: none;
+    
 
 
 }
@@ -103,7 +105,7 @@ body{
     width:100%;
     margin-bottom: 40px;
     border-radius: 8px;
-    filter:drop-shadow(0 0 70px rgba(255, 140, 105, .9));
+    filter:drop-shadow(0 0 50px rgba(255, 140, 105, .55));
 
 }
 .banner-title{
