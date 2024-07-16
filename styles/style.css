@@ -204,6 +204,30 @@ body{
 .facts-headline{
     flex-direction: column;
 }
+/* Sponsor styling */
+.sponsor-info{
+    max-width: 385px;
+    margin: 128px auto 36px;
+    text-align: center;
+}
+.sponsor-img-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    margin: 0 auto;
+    
+}
+.sponsor-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.sponsor-details{
+    font-size: .71rem;
+}
+.sponsor-img-container img{
+    filter: grayscale(100%);
+}
+
 
 
 
@@ -231,7 +255,8 @@ body{
     }
     .card-container{
     grid-template-columns: repeat(2,1fr);
-    justify-content: center;
+    justify-items:center;
+    margin: 0;
     }
     .card{
         height:140px;
@@ -241,6 +266,10 @@ body{
         justify-content: center;
         margin:50px 20px;
         
+    }
+    .sponsor-img-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
     }
     
     
@@ -260,8 +289,15 @@ body{
     }
     .card-container{
         grid-template-columns: repeat(2,1fr);
-        justify-content: center;
+        justify-items:center;
+        margin: 0;
         }
+        .sponsor-img-container{
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+        }
+    
+
     
 }
 
