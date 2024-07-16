@@ -110,7 +110,7 @@ body{
 .banner-contents{
     margin:0 auto;
     text-align:center;
-    max-width:38rem ;
+    max-width:1440px;
 }
 .banner-image-container{
     margin: 0 auto;
@@ -143,8 +143,10 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    max-width: 502px;
-    margin: 0 auto;
+    max-width: 50%;
+
+    margin-left: 214px;
+    margin-right: 52px;
    
 
 }
@@ -154,7 +156,7 @@ body{
 }
 .showcase-features{
     max-width: 381px;
-    margin-left: 52px;
+    margin-right: 214px;
 }
 .showcase-title{
     font-size: 2rem;
@@ -219,15 +221,17 @@ body{
     }
     .showcase-image-container{
         grid-template-columns: 1fr;
+        max-width: 100%;
+        margin:0 auto;
     }
     .showcase-features{
-        margin-right:52px;
+        /* margin-right:52px; */
         text-align: center;
+        margin: 20px auto;
     }
     .card-container{
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
-    
     }
     .card{
         height:140px;
@@ -248,6 +252,16 @@ body{
     .showcase{
         margin: 0 auto;
     }
+    .showcase-image-container{
+        margin: 0 auto;
+    }
+    .showcase-features{
+        margin: 0 auto;
+    }
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        }
     
 }
 
